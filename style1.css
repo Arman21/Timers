@@ -1,0 +1,263 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:sans-serif;
+	outline:none;
+}
+.text1 {
+	margin-left:520px;
+	margin-top:100px;
+	color:#000000;
+	font-family:sans-serif;
+	font-size:60px;
+	transition:all 1.5s ease;
+	cursor:pointer;
+}
+.text1:hover {
+	color:#5794F6;
+	text-decoration:underline;
+}
+.main1 {
+	border:1px solid 0;
+	position:relative;
+	left:15%;
+	top:90px;
+	width:70%;
+	display:flex;
+	flex-direction:row;
+	align-items:stretch;
+	flex-wrap:wrap;
+	margin-bottom:100px;
+	border-radius:25px;
+	padding:20px 0;
+	animation-name:animation1;
+	animation-direction:normal;
+	animation-play-state:running;
+	animation-iteration-count:infinite;
+	animation-duration:17s;
+	animation-delay:3s;
+	background-color:#0FC0FC;
+}
+@keyframes animation1 {
+	0% {background-color:#0FC0FC;}
+	25% {background-color:#FF0800;}
+	50% {background-color:#FF9D4D;}
+	75% {background-color:#FFE75A;}
+	100% {background-color:#00FF00;}
+}
+.child {
+	margin-left:39px;
+	height:200px;
+	width:200px;
+	border-radius:50%;
+	border:1px solid 0;
+	background-color:#8C2FBE;
+	transition:all 3s ease;
+}
+.child:hover {
+	transform:rotateY(360deg);
+	background-color:#0FC0FC;
+}
+.child p {
+	color:#FFFFFF;
+	font-size:60px;
+	text-align:center;
+	margin-top:63px;
+	transition:all 1.5s ease;
+	cursor:pointer;
+}
+.child p:hover {
+	color:#000000;
+}
+@media screen and (max-width:1383px) {
+	.child {
+		margin-left:96px;
+	}
+	.child4 {
+		margin-top:50px;
+		margin-left:400px;
+	}
+}
+@media screen and (max-width:1287px) {
+	.child {
+		margin-left:150px;
+	}
+	.child3 {
+		margin-top:50px;
+		margin-left:150px;
+	}
+	.child4 {
+		margin-top:-200px;
+		margin-left:500px;
+	}
+}
+@media screen and (max-width:1017px) {
+	.child {
+		margin-left:250px;
+		margin-top:55px;
+	}
+	.child4 {
+		margin-bottom:55px;
+	}
+}
+@media screen and (max-width:768px) {
+	.child {
+		margin-left:160px;
+	}
+}
+@media screen and (max-width:590px) {
+	.child {
+		margin-left:105px;
+	}
+}
+@media screen and (max-width:500px) {
+	.child {
+		margin-left:70px;
+	}
+}
+.text2 {
+	margin-left:520px;
+	margin-top:220px;
+	color:#000000;
+	font-family:sans-serif;
+	font-size:60px;
+	transition:all 1.5s ease;
+	cursor:pointer;
+}
+.text2:hover {
+	color:#5794F6;
+	text-decoration:underline;
+}
+.main2 {
+	border:1px solid 0;
+	position:relative;
+	left:15%;
+	top:90px;
+	width:70%;
+	display:flex;
+	flex-direction:row;
+	align-items:stretch;
+	flex-wrap:wrap;
+	margin-bottom:100px;
+	border-radius:25px;
+	padding:20px 0;
+	animation-name:animation2;
+	animation-direction:normal;
+	animation-play-state:running;
+	animation-iteration-count:infinite;
+	animation-duration:17s;
+	animation-delay:3s;
+	background-color:#00FF00;
+}
+@keyframes animation2 {
+	0% {background-color:#0FC0FC;}
+	25% {background-color:#F5FF3C;}
+	50% {background-color:#00FF00;}
+	75% {background-color:#FFA528;}
+	100% {background-color:#0FC0FC;}
+}
+.childs {
+	margin-left:39px;
+	height:200px;
+	width:200px;
+	border-radius:50%;
+	border:1px solid 0;
+	background-color:#FF0800;
+	transition:all 3s ease;
+}
+.childs:hover {
+	transform:rotateY(360deg);
+	background-color:#0FC0FC;
+}
+.childs p {
+	color:#66DDAA;
+	font-size:60px;
+	text-align:center;
+	margin-top:63px;
+	transition:all 1.5s ease;
+	cursor:pointer;
+}
+.childs p:hover {
+	color:#000000;
+}
+#child5 {
+	color:#40E0D0;
+}
+#child7 {
+	color:#40E0D0;
+}
+@media screen and (max-width:1383px) {
+	.childs {
+		margin-left:96px;
+	}
+	.child8 {
+		margin-top:50px;
+		margin-left:400px;
+	}
+}
+@media screen and (max-width:1287px) {
+	.childs {
+		margin-left:150px;
+	}
+	.child7 {
+		margin-top:50px;
+		margin-left:150px;
+	}
+	.child8 {
+		margin-top:-200px;
+		margin-left:500px;
+	}
+}
+@media screen and (max-width:1017px) {
+	.childs {
+		margin-left:250px;
+		margin-top:55px;
+	}
+	.child8 {
+		margin-bottom:55px;
+	}
+}
+@media screen and (max-width:768px) {
+	.childs {
+		margin-left:160px;
+	}
+}
+@media screen and (max-width:590px) {
+	.childs {
+		margin-left:105px;
+	}
+}
+@media screen and (max-width:500px) {
+	.childs {
+		margin-left:70px;
+	}
+}
+.button {
+	margin-top:125px;
+	padding:11px 12px;
+	font-size:20px;
+	margin-left:570px;
+	color:#FFFFFF;
+	border-radius:10px;
+	cursor:pointer;
+	margin-bottom:80px;
+}
+.button1 {
+	border:1px solid #00FF00;
+	background-color:#00FF00;
+}
+.button2 {
+	border:1px solid #FF0800;
+	background-color:#FF0800;
+	margin-left:70px;
+}
+.button1:active {
+	border:5px solid #00AF00;
+}
+.button2:active {
+	border:5px solid #AF0600;
+}
+.button:hover {
+	color:#000000;
+}
