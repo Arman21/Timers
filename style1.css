@@ -6,8 +6,7 @@
 	outline:none;
 }
 body {
-	background-color:#000000;
-	opacity:0.3;
+	background-color:rgba(213,213,213,0.6) ;
 }
 .text1 {
 	margin-left:520px;
@@ -17,6 +16,7 @@ body {
 	font-size:60px;
 	transition:all 1.5s ease;
 	cursor:pointer;
+	z-index:2;
 }
 .text1:hover {
 	color:#5794F6;
@@ -42,6 +42,7 @@ body {
 	animation-duration:17s;
 	animation-delay:3s;
 	background-color:#0FC0FC;
+	z-index:2;
 }
 @keyframes animation1 {
 	0% {background-color:#0FC0FC;}
@@ -128,6 +129,7 @@ body {
 	font-size:60px;
 	transition:all 1.5s ease;
 	cursor:pointer;
+	z-index:2;
 }
 .text2:hover {
 	color:#5794F6;
@@ -153,6 +155,7 @@ body {
 	animation-duration:17s;
 	animation-delay:3s;
 	background-color:#00FF00;
+	z-index:2;
 }
 @keyframes animation2 {
 	0% {background-color:#0FC0FC;}
