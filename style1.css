@@ -5,6 +5,10 @@
 	font-family:sans-serif;
 	outline:none;
 }
+body {
+	background-color:#000000;
+	opacity:0.3;
+}
 .text1 {
 	margin-left:520px;
 	margin-top:100px;
