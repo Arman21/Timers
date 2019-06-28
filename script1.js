@@ -15,9 +15,9 @@ timer = setInterval(function() {
 	var second ;
 	second = Math.floor(difference%(1000 * 60)/1000) ;
 	document.getElementById("child1").innerHTML = day + "D" ;
-	document.getElementById("child2").innerHTML = hour +"H" ;
-	document.getElementById("child3").innerHTML = minute +"M" ;
-	document.getElementById("child4").innerHTML = second +"S" ;
+	document.getElementById("child2").innerHTML = hour + "H" ;
+	document.getElementById("child3").innerHTML = minute + "M" ;
+	document.getElementById("child4").innerHTML = second + "S" ;
 	if (difference<0) {
 		clearInterval(timer) ;
 		document.getElementById("main1").style.display = "none" ;
