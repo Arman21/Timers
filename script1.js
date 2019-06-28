@@ -14,10 +14,10 @@ timer = setInterval(function() {
 	minute = Math.floor(difference%(1000 * 60 * 60)/(1000 * 60)) ;
 	var second ;
 	second = Math.floor(difference%(1000 * 60)/1000) ;
-	document.getElementById("child1").innerHTML = day+"D" ;
-	document.getElementById("child2").innerHTML = hour+"H" ;
-	document.getElementById("child3").innerHTML = minute+"M" ;
-	document.getElementById("child4").innerHTML = second+"S" ;
+	document.getElementById("child1").innerHTML = day + "D" ;
+	document.getElementById("child2").innerHTML = hour +"H" ;
+	document.getElementById("child3").innerHTML = minute +"M" ;
+	document.getElementById("child4").innerHTML = second +"S" ;
 	if (difference<0) {
 		clearInterval(timer) ;
 		document.getElementById("main1").style.display = "none" ;
@@ -57,7 +57,7 @@ function increment() {
 			}
 			document.getElementById("child5").innerHTML = hour2 + "H" ;
 			document.getElementById("child6").innerHTML = minut2 + "M" ;
-			document.getElementById("child7").innerHTML = second2+ "S" ;
+			document.getElementById("child7").innerHTML = second2 + "S" ;
 			document.getElementById("child8").innerHTML = milisecond + "MS" ;
 			increment() ;
 		} , 100) ;
