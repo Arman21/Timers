@@ -3,7 +3,7 @@ futureDate = new Date(2019 , 11 , 30 , 16 , 45 , 20).getTime() ;
 var timer ;
 timer = setInterval(function() {
 	var now ;
-	now = new Date().getTime() ; // kolvo-milivayrkyannerov
+	now = new Date().getTime() ; 
 	var difference ;
 	difference = futureDate - now ;
 	var day ;
